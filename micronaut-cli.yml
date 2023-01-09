@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: eu.xtrf.custom.clickup.clickupautomation
+testFramework: spock
+sourceLanguage: groovy
+buildTool: maven
+features: [annotation-api, app-name, gcp-pubsub, google-cloud-function, google-cloud-function-http, groovy, groovy-application, jackson-databind, logback, maven, readme, shade, spock, yaml]
