@@ -1,3 +1,10 @@
 micronaut:
   application:
     name: clickupWebhookPublisher
+topics:
+  clickupTaskBugCreated: clickup-task-bug-created
+  clickupTaskTaskCreated: clickup-task-specification-created
+  clickupTaskSpecificationCreated: clickup-task-specification-created
+  clickupTaskUpdated: clickup-task-updated
+  jiraIssueUpdated: jira-issue-update
+gcpProjectId: clickup-integration-349412
